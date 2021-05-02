@@ -1,0 +1,9 @@
+prefix=/root/lnmp1.7/src/openssl-1.1.1g/.openssl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1g
+Requires: libssl libcrypto
